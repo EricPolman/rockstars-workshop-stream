@@ -1,0 +1,41 @@
+@import "./font.styles.scss";
+@import "./variables.scss";
+
+body {
+    background-color: transparent;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+* {
+    font-family: "DIN 2014";
+  }
